@@ -1,0 +1,108 @@
+.homecontent{
+    height:100% !important;
+}
+.bad{
+    height:100% !important;
+}
+.middle{
+    height:100% !important;
+}
+
+hr{
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.topsection{
+    height:15%;
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    background-color: white;
+}
+.admincontent{ 
+    width: 100%;
+    margin: 0 auto;
+}
+.logo{
+    display:inline-block;
+    max-width:25%;
+    min-width:25%;
+    vertical-align:middle;
+}
+.topsection h1{
+    vertical-align:middle;
+    line-height: 50%;
+    font-weight:bold;
+    display:inline-block;
+    font-size:2em;
+    padding:20px;
+}
+
+.middlesection{
+    overflow: auto;
+    height:75%;
+    min-width: 60%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+.middlesection::before, .middlesection::after {
+    content: '';
+  }
+  .middlesection::before {
+    margin-top: auto;               /*  added  */
+  }
+  .middlesection::after {
+    margin-bottom: auto;            /*  added  */
+  }
+
+.middlesection p{
+    padding:3%;
+    display:inline-block;
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.336);
+}
+
+.bottomsection{
+    display:flex;
+    align-items: flex-end;
+    height:10%;
+    padding:20px;
+    background-color: white;
+}
+
+table{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:95% !important;
+    overflow-x:hidden;
+}
+td{
+    word-break:break-word;
+}
+
+.middlesection::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+}
+
+.middlesection::-webkit-scrollbar
+{
+    border-radius: 10px;
+    height:10%;
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+.middlesection::-webkit-scrollbar-thumb
+{
+	border-radius: 9090px;
+	background-color: rgb(51, 51, 51);
+}

@@ -1,0 +1,181 @@
+@font-face {
+    font-family: ProductSans;
+    src: url(../fonts/Product\ Sans\ Regular.ttf);
+    font-weight: bold;
+  }
+
+*{ 
+    padding:0;
+    margin:0;
+    font-family: ProductSans;
+}
+
+html, body { height:100%; }
+.box { height:100%; }
+
+body{
+    background-color:black;
+    width:100%;
+}
+
+.hero{
+    overflow:hidden;
+    width:100%;
+    background-color:white;
+    position: relative;
+}
+
+.hero p{
+  z-index:999;
+    margin:10px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+    font-size: 4vh;
+    text-align: center;
+    color:black;
+    position: absolute;
+}
+
+.hero a{
+    text-decoration: none;
+    color: #FA7268;
+}
+
+.hero h1{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+
+    position: absolute;
+    bottom:0;
+    font-size: 63vw;
+    color: black;
+    letter-spacing: -7vw;
+    width:100%;
+    height:auto;
+    line-height: 0.75;
+    padding:0;
+    margin:0;
+    margin-left: -4%;
+    margin-bottom:-6%;
+}
+
+.bubble{
+    position: relative;
+    overflow:hidden;
+    width:100%;
+    background-color:black;
+}
+
+.bubble img{
+  max-width: 50%;
+}
+ 
+.bubble p{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    font-size: 5vw;
+    margin-left:33%;
+    vertical-align: middle;
+    line-height: 100vh; 
+    text-align: left;
+    color:black;
+}
+
+.bubble a{
+    color: #FA7268;
+    text-decoration: none;
+}
+
+.bubble img{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+
+.fade-in-bck {
+	-webkit-animation: fade-in-bck 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.5s both;
+	        animation: fade-in-bck 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.5s both;
+}
+
+@-webkit-keyframes fade-in-bck {
+    0% {
+      -webkit-transform: translateZ(80px);
+              transform: translateZ(80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-bck {
+    0% {
+      -webkit-transform: translateZ(80px);
+              transform: translateZ(80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+.tracking-in-contract-bck {
+	-webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+	        animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
